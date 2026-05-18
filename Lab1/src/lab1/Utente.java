@@ -25,6 +25,11 @@ public class Utente {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	@Override
+	public String toString() {
+		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
+				+ peso + "]";
+	}
 	public String getGenero() {
 		return genero;
 	}

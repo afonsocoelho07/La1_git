@@ -55,4 +55,8 @@ public class Utente {
 		this.peso = peso;
 	}
 	
+	public double imc(int peso,double altura) {
+		return peso/(altura*altura);
+	}
+	
 }

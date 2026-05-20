@@ -48,6 +48,9 @@ public class Utente {
 		this.peso = peso;
 	}
 	
+	public static void main(String[]args) {
+		System.out.println("teste");
+	}
 	
 	
 

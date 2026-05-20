@@ -49,7 +49,7 @@ public class Utente {
 	}
 	
 	public static void main(String[]args) {
-		System.out.println("teste");
+		System.out.println("novo");
 	}
 	
 	

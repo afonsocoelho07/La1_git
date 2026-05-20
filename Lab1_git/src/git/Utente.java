@@ -13,7 +13,40 @@ public class Utente {
 		this.idade = idade;
 		this.altura = altura;
 		this.peso = peso;
+		ss
+		
 	}
+
+	@Override
+	public String toString() {
+		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
+				+ peso + "]";
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+	public float getAltura() {
+		return altura;
+	}
+
+	public void setAltura(float altura) {
+		this.altura = altura;
+	}
+
+	public int getPeso() {
+		return peso;
+	}
+
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+	
 	
 	
 

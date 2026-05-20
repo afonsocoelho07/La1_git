@@ -52,6 +52,6 @@ public class Utente {
 		System.out.println("novo inccrivel");
 	}
 	
-	
+	public void ola()
 
 }
